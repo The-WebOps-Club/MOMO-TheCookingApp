@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.01"
+                android:text="UserName" >
+
+                <requestFocus />
+            </TextView>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Enter your email id" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.18"
+                android:ems="10"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/passwrd"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:ems="6"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="submit" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

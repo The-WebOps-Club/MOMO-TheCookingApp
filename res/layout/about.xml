@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@dimen/activity_horizontal_margin"
+            android:text="                    MOMO
+Made for Our Mothers Out there!"
+            android:textColorLink="#A30DFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="68dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Purpose and overview
+To help cook the best with the least!
+ Spend time cooking than searching!
+ Presenting you the recipes worldwide in an affordable app!" />
+
+    </RelativeLayout>
+
+</LinearLayout>
